@@ -31,6 +31,9 @@ We also want to secure web pages.
 
 
 ## Types of authentication
+Asymmetrical auth token with RSA256
+Tokens with secret
+Token stored in the database
 
 
 ## Client-side authentication
@@ -48,6 +51,6 @@ https://nextjs.org/docs/authentication
 https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODQ3NDEwNCw5MjE2MTE2MTYsODU3MD
+eyJoaXN0b3J5IjpbLTU2MTQ0MTMzNCw5MjE2MTE2MTYsODU3MD
 QwOTI5LDE3NzY5OTY1ODEsLTMzMjQ1NTM2M119
 -->
