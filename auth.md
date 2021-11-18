@@ -37,10 +37,13 @@ A JSON Web Token is a token that encode informations about the user. Typically, 
 
 You can do 2 operations on an existing token:
 
-- Decoding: it means getting the information on the token
+- Decoding: it means getting the information on the token.
+**Decoding a token DOESN'T mean it's valid.** Because anyone can craft a token that can be decoded! Think of it as a convenience to get basic user info from the token
 - Verifying: it means checking the token validity
-**Decoding a token DOESN'T mean it's valid.** Because anyone can craft a token that can be decoded.
-**Verifying the token DOES MEAN it's valid and the user is authenticated**. 
+**Verifying the token DOES MEAN it's valid and the user is authenticated**. That's what you want to do to use to authenticate someone.
+
+In order to verify a token, you need a key. In an assymetrical approach, the website owner, you, has a secret key used to **create** tokens. And the client application have a public key, used to verify the
+
 
 
 ## Types of authentication
@@ -181,7 +184,7 @@ https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 https://jwt.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODk0NTg1MywtOTM1MzY5NjY3LC00Mz
+eyJoaXN0b3J5IjpbLTYwNjIwNDQ2NywtOTM1MzY5NjY3LC00Mz
 YwNzY4NjYsLTE2NzExMTQ3NjYsOTA4ODU3MjY0LDkyMTYxMTYx
 Niw4NTcwNDA5MjksMTc3Njk5NjU4MSwtMzMyNDU1MzYzXX0=
 -->
