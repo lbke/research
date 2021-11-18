@@ -153,7 +153,7 @@ We talk about redirection more than authentication.
 When using a JWT token with a public certificate, technically, you can authenticate client-side, but use cases are limited.
 Here, the goal is only to redirect non-authenticated users as soon as possible using frontend code.
 
-See this ticket for some advanced pattern inspired by Vercel dashboard: https://github.com/VulcanJS/vulcan-next/issues/71
+See this ticket for some advanced pattern for Next.js inspired by Vercel dashboard: https://github.com/VulcanJS/vulcan-next/issues/71
 
 ## About the official Next.js authentication documenation
 https://nextjs.org/docs/authentication
@@ -166,7 +166,7 @@ https://nextjs.org/docs/authentication
 https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2NjczNTksOTA4ODU3MjY0LDkyMTYxMT
-YxNiw4NTcwNDA5MjksMTc3Njk5NjU4MSwtMzMyNDU1MzYzXX0=
-
+eyJoaXN0b3J5IjpbLTE2NzExMTQ3NjYsOTA4ODU3MjY0LDkyMT
+YxMTYxNiw4NTcwNDA5MjksMTc3Njk5NjU4MSwtMzMyNDU1MzYz
+XX0=
 -->
