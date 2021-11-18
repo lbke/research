@@ -40,6 +40,7 @@ Access + refresh token
 TODO: find the right naming for those patterns
 
 ## Middleware authentication
+(copy pasted from stack overflow)
 This question might need an updated answer, now middlewares are there in Next.js 12 (october 2021): https://nextjs.org/docs/middleware
 
 ### Verifying the token after auth and redirecting accordingly
@@ -150,6 +151,9 @@ It uses a kind of session system but I am not clear about the internals of it, I
 We talk about redirection more than authentication.
 
 When using a JWT token with a public certificate, technically, you can authenticate client-side, but use cases are limited.
+Here, the goal is only to redirect non-authenticated users as soon as possible using frontend code.
+
+
 
 ## About the official Next.js authentication documenation
 https://nextjs.org/docs/authentication
@@ -162,7 +166,7 @@ https://nextjs.org/docs/authentication
 https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyMDY2NjksOTA4ODU3MjY0LDkyMTYxMT
-YxNiw4NTcwNDA5MjksMTc3Njk5NjU4MSwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbMTk0NjMwODQ3LDkwODg1NzI2NCw5MjE2MT
+E2MTYsODU3MDQwOTI5LDE3NzY5OTY1ODEsLTMzMjQ1NTM2M119
 
 -->
