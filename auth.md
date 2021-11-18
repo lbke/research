@@ -35,6 +35,9 @@ We also want to secure web pages.
 Asymmetrical auth token with RSA256
 Tokens with secret
 Token stored in the database
+Access + refresh token
+
+TODO: find the right naming for those patterns
 
 
 ## Client-side authentication
@@ -52,6 +55,6 @@ https://nextjs.org/docs/authentication
 https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDAyMTkxNjgsOTIxNjExNjE2LDg1Nz
-A0MDkyOSwxNzc2OTk2NTgxLC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbOTA4ODU3MjY0LDkyMTYxMTYxNiw4NTcwND
+A5MjksMTc3Njk5NjU4MSwtMzMyNDU1MzYzXX0=
 -->
