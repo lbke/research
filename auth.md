@@ -5,7 +5,7 @@
 Provide a comprehensive description of the most common authentication patterns for human users in full-stack web application. 
 Next.js is taken as an example as it provides all relevant features (API routes, web pages, and middlewares acting as proxy) for authentication.
 
-## Use case
+## Use cases
 
 A user access a "/private" page. 
 We want to cover 2 scenarios:
@@ -45,6 +45,6 @@ We also want to secure web pages.
 https://next-auth.js.org/
 https://nextjs.org/docs/authentication
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjUwODE0LDE3NzY5OTY1ODEsLTMzMj
+eyJoaXN0b3J5IjpbODU3MDQwOTI5LDE3NzY5OTY1ODEsLTMzMj
 Q1NTM2M119
 -->
