@@ -42,7 +42,12 @@ You can do 2 operations on an existing token:
 - Verifying: it means checking the token validity
 **Verifying the token DOES MEAN it's valid and the user is authenticated**. That's what you want to do to use to authenticate someone.
 
-In order to verify a token, you need a key. In an assymetrical approach, the website owner, you, has a secret key used to **create** tokens. And the client application have a public key, used to verify the
+In order to verify a token, you need a key. 
+
+In a symmetrical approach, there is one **secret** key, used to created and verify token. This mean this operation can only be done server-side, by the authentication server.
+
+In an assymetrical approach, the website owner, you, has a **secret** key used to create tokens. And the client application have a public key, used to verify the token.
+It means an assymetrical approach let's anyone check the token validity. That's nice if you are using a 3rd party authentication service like FusionAuth. It means you don't even need to call it to check th
 
 
 
@@ -184,7 +189,7 @@ https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 https://jwt.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjIwNDQ2NywtOTM1MzY5NjY3LC00Mz
-YwNzY4NjYsLTE2NzExMTQ3NjYsOTA4ODU3MjY0LDkyMTYxMTYx
-Niw4NTcwNDA5MjksMTc3Njk5NjU4MSwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTEyODQxMTk1MTAsLTkzNTM2OTY2NywtND
+M2MDc2ODY2LC0xNjcxMTE0NzY2LDkwODg1NzI2NCw5MjE2MTE2
+MTYsODU3MDQwOTI5LDE3NzY5OTY1ODEsLTMzMjQ1NTM2M119
 -->
