@@ -28,6 +28,7 @@ Scenario 2 is appropriate when the content is not sensitive. It is not using Nex
 We don't want to limit ourselves to setup server-to-server communication, or client-to-api communication. 
 We also want to secure web pages.
 We don't focus on patterns using a 3rd party (Oauth) yet.
+We don't introduce roles or tenants.
 
 ## About JWT
 
@@ -187,7 +188,7 @@ https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 https://jwt.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTg2MTg0OCwtOTM1MzY5NjY3LC00Mz
+eyJoaXN0b3J5IjpbMjA2NTYyMTk1OCwtOTM1MzY5NjY3LC00Mz
 YwNzY4NjYsLTE2NzExMTQ3NjYsOTA4ODU3MjY0LDkyMTYxMTYx
 Niw4NTcwNDA5MjksMTc3Njk5NjU4MSwtMzMyNDU1MzYzXX0=
 -->
