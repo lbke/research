@@ -7,7 +7,7 @@ Next.js is taken as an example as it provides all relevant features (API routes,
 
 ## Use cases
 
-A user access a "/private" page. 
+Users can authenticate themselves using password and email. A user access a "/private" page. 
 We want to cover 2 scenarios:
 
 1) Check if they are logged in and redirect them, server-side, before the page is even loaded.
@@ -168,7 +168,7 @@ https://nextjs.org/docs/authentication
 https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2OTcxMDQzLC0xNjcxMTE0NzY2LDkwOD
-g1NzI2NCw5MjE2MTE2MTYsODU3MDQwOTI5LDE3NzY5OTY1ODEs
-LTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMTcxMTY3NDIzMCwtMTY3MTExNDc2Niw5MD
+g4NTcyNjQsOTIxNjExNjE2LDg1NzA0MDkyOSwxNzc2OTk2NTgx
+LC0zMzI0NTUzNjNdfQ==
 -->
