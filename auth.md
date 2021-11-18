@@ -31,6 +31,8 @@ We don't focus on patterns using a 3rd party (Oauth) yet.
 
 ## About JWT
 
+This is a summary only for the purpose of this guide. JWT are a vast subject. More information can be found here: https://jwt.io/
+A JSON Web Token is a token that encode informations about the user. Typically, you would store a few non-sensitive meta-information 
 
 ## Types of authentication
 Asymmetrical auth token with RSA256
@@ -168,8 +170,9 @@ TODO: describe the pattern selected by Next auth
 https://nextjs.org/docs/authentication
 https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
+https://jwt.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTM2OTY2NywtNDM2MDc2ODY2LC0xNj
-cxMTE0NzY2LDkwODg1NzI2NCw5MjE2MTE2MTYsODU3MDQwOTI5
-LDE3NzY5OTY1ODEsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMjU2MDY5MjE1LC05MzUzNjk2NjcsLTQzNj
+A3Njg2NiwtMTY3MTExNDc2Niw5MDg4NTcyNjQsOTIxNjExNjE2
+LDg1NzA0MDkyOSwxNzc2OTk2NTgxLC0zMzI0NTUzNjNdfQ==
 -->
