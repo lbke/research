@@ -5,6 +5,8 @@
 Provide a comprehensive description of the most common authentication patterns for human users in full-stack web application. 
 Next.js is taken as an example as it provides all relevant features (API routes, web pages, and middlewares acting as proxy) for authentication.
 
+This guide is targeted at Next.js users, therefore it should be understandable by frontend developers with basic backend knowledge.
+
 ## Use cases
 
 Users can authenticate themselves using password and email. A user access a "/private" page. 
@@ -25,8 +27,8 @@ Scenario 2 is appropriate when the content is not sensitive. It is not using Nex
 - Token revokation: admin can log out an user (eg after an usurpation is identified)
 
 ## Non-goals
-We don't want to limit ourselves to setup server-to-server communication, or client-to-api communication. 
-We also want to secure web pages.
+We don't want to limit ourselves to setup server-to-server communication, or client-to-api communication.
+**We also want to secure web pages**. This is important, as many existing documentation are only explaining how to secure an API, and not how to secure web pages.
 We don't focus on patterns using a 3rd party (Oauth) yet.
 We don't introduce roles or tenants.
 
