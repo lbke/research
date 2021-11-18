@@ -8,7 +8,15 @@ Next.js is taken as an example as it provides all relevant features (API routes,
 ## Use case
 
 A user access a "/private" page. 
-We want to check if they are logged in and redirect them, server-side.
+We want to cover 2 scenarios:
+1) Check if they are logged in and redirect them, server-side, before the page is even loaded.
+
+Scenario 1 is appropriate when the content of the page is sensitive, eg statically rendering private content.
+
+2) Check client-side, for non-sensitive client.
+
+
+Server-side checks and client-side
 This check may happen:
 - client-side
 
@@ -34,6 +42,6 @@ We also want to secure web pages.
 https://next-auth.js.org/
 https://nextjs.org/docs/authentication
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODU1NjU2MjgsMTc3Njk5NjU4MSwtMz
-MyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTU5NTEzNDc3NSwxNzc2OTk2NTgxLC0zMz
+I0NTUzNjNdfQ==
 -->
