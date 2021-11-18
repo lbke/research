@@ -38,13 +38,16 @@ We also want to secure web pages.
 ## Middleware authentication
 
 ## About the official Next.js authentication documenation
+https://nextjs.org/docs/authentication
 
 ## About next-auth
+https://next-auth.js.org/
 
 ## Resources
-https://next-auth.js.org/
 https://nextjs.org/docs/authentication
+https://next-auth.js.org/
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3MDQwOTI5LDE3NzY5OTY1ODEsLTMzMj
-Q1NTM2M119
+eyJoaXN0b3J5IjpbOTIxNjExNjE2LDg1NzA0MDkyOSwxNzc2OT
+k2NTgxLC0zMzI0NTUzNjNdfQ==
 -->
