@@ -13,7 +13,8 @@
 ## About the official Next.js authentication documenation
 
 ## Resources
-
+https://next-auth.js.org/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Njk5NjU4MSwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTIzODQ1NDkxOCwxNzc2OTk2NTgxLC0zMz
+I0NTUzNjNdfQ==
 -->
