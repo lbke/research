@@ -19,7 +19,7 @@ It supposes using Next.js server-side feature (mainly middlewares). It is applia
 
 Scenario 2 is appropriate when the content is not sensitive. It is not using Next.js server-side feature, so it should work for other client-only frameworks such as Gatsby, Create-React-App.
 
-### Additional features 
+### Additional features to support
 
 - "Remember me mode": user stays authenticated for at least one month. If not ticked, user is logged out at the end of the session.
 - Token revokation: admin can log out an user (eg after an usurpation is identified)
@@ -52,6 +52,6 @@ https://nextjs.org/docs/authentication
 https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTM5MzU0Niw5MjE2MTE2MTYsODU3MD
-QwOTI5LDE3NzY5OTY1ODEsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTEwMDAyMTkxNjgsOTIxNjExNjE2LDg1Nz
+A0MDkyOSwxNzc2OTk2NTgxLC0zMzI0NTUzNjNdfQ==
 -->
