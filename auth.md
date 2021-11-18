@@ -21,7 +21,7 @@ Scenario 2 is appropriate when the content is not sensitive. It is not using Nex
 
 ### Additional features
 - "Remember me mode": user stays authenticated for at least one month. If not ticked, user is logged out at the end of the session.
-- Token revokation: admin can log out an user (eg after an attack)
+- Token revokation: admin can log out an user (eg after an usurpation is identified)
 
 ## Non-goals
 We don't want to limit ourselves to setup server-to-server communication, or client-to-api communication. 
@@ -51,6 +51,6 @@ https://nextjs.org/docs/authentication
 https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTU4NjAyNDEsOTIxNjExNjE2LDg1Nz
+eyJoaXN0b3J5IjpbLTEzNTI4NTI2MzQsOTIxNjExNjE2LDg1Nz
 A0MDkyOSwxNzc2OTk2NTgxLC0zMzI0NTUzNjNdfQ==
 -->
