@@ -158,6 +158,7 @@ See this ticket for some advanced pattern for Next.js inspired by Vercel dashboa
 
 ## About the official Next.js authentication documenation
 https://nextjs.org/docs/authentication
+TODO: describe the pattern selected by Next.js official doc more thoroughly.
 
 ## About next-auth
 https://next-auth.js.org/
@@ -168,7 +169,7 @@ https://nextjs.org/docs/authentication
 https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjA3Njg2NiwtMTY3MTExNDc2Niw5MD
-g4NTcyNjQsOTIxNjExNjE2LDg1NzA0MDkyOSwxNzc2OTk2NTgx
-LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTkzNTM2OTY2NywtNDM2MDc2ODY2LC0xNj
+cxMTE0NzY2LDkwODg1NzI2NCw5MjE2MTE2MTYsODU3MDQwOTI5
+LDE3NzY5OTY1ODEsLTMzMjQ1NTM2M119
 -->
