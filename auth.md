@@ -46,8 +46,8 @@ https://next-auth.js.org/
 ## Resources
 https://nextjs.org/docs/authentication
 https://next-auth.js.org/
-
+https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNjExNjE2LDg1NzA0MDkyOSwxNzc2OT
-k2NTgxLC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbMTg1ODQ3NDEwNCw5MjE2MTE2MTYsODU3MD
+QwOTI5LDE3NzY5OTY1ODEsLTMzMjQ1NTM2M119
 -->
