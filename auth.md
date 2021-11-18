@@ -39,8 +39,9 @@ You can do 2 operations on an existing token:
 
 - Decoding: it means getting the information on the token
 - Verifying: it means checking the token validity
-**Decoding a token doesn't mean it's valid.** Because anyone can craft a token that can be decoded.
-**Veryfing the token DMEAN it's valid and the user is authenticated. 
+**Decoding a token DOESN'T mean it's valid.** Because anyone can craft a token that can be decoded.
+**Veryfing the token DOES MEAN it's valid and the user is authenticated**. 
+
 
 ## Types of authentication
 Asymmetrical auth token with RSA256
@@ -180,7 +181,7 @@ https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 https://jwt.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDU2MDA5OSwtOTM1MzY5NjY3LC00Mz
-YwNzY4NjYsLTE2NzExMTQ3NjYsOTA4ODU3MjY0LDkyMTYxMTYx
-Niw4NTcwNDA5MjksMTc3Njk5NjU4MSwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTE0NDg0MDYzMTgsLTkzNTM2OTY2NywtND
+M2MDc2ODY2LC0xNjcxMTE0NzY2LDkwODg1NzI2NCw5MjE2MTE2
+MTYsODU3MDQwOTI5LDE3NzY5OTY1ODEsLTMzMjQ1NTM2M119
 -->
