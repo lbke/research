@@ -184,11 +184,16 @@ TODO: describe the pattern selected by Next.js official doc more thoroughly.
 https://next-auth.js.org/
 TODO: describe the pattern selected by Next auth
 
+## About various implementation of auth in modern frameworks
+
+
 ## Resources
 https://nextjs.org/docs/authentication
 https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 https://jwt.io/
+https://supertokens.io/: creator of Super Tokens contributed to Blitz.js auth implementation
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjA2NTYyMTk1OCwtOTM1MzY5NjY3LC00Mz
 YwNzY4NjYsLTE2NzExMTQ3NjYsOTA4ODU3MjY0LDkyMTYxMTYx
