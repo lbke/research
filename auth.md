@@ -191,10 +191,12 @@ TODO: describe the pattern selected by Next auth
  
 The "Jokes" tutorial includes an authentication example with detailed explanations of the auth flow.
 
+ https://remix.run/docs/en/v1/tutorials/jokes#authentication
+
+
 - The token is hashed using a secret variable. It contains the user id.
-- The server checks the use
-- 
- - https://remix.run/docs/en/v1/tutorials/jokes#authentication
+- The server checks the user id against the database to confirm existence.
+- It does describe an API authentication (securing the creation of a new "joke") but it's unclear about how to protect pages.
 
 ## Resources
 https://nextjs.org/docs/authentication
@@ -204,8 +206,8 @@ https://jwt.io/
 https://supertokens.io/: creator of Super Tokens contributed to Blitz.js auth implementation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4OTk1MzM5LDIwNjU2MjE5NTgsLTkzNT
-M2OTY2NywtNDM2MDc2ODY2LC0xNjcxMTE0NzY2LDkwODg1NzI2
-NCw5MjE2MTE2MTYsODU3MDQwOTI5LDE3NzY5OTY1ODEsLTMzMj
-Q1NTM2M119
+eyJoaXN0b3J5IjpbNDk1NTM1OTYsMjA2NTYyMTk1OCwtOTM1Mz
+Y5NjY3LC00MzYwNzY4NjYsLTE2NzExMTQ3NjYsOTA4ODU3MjY0
+LDkyMTYxMTYxNiw4NTcwNDA5MjksMTc3Njk5NjU4MSwtMzMyND
+U1MzYzXX0=
 -->
