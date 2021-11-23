@@ -185,7 +185,9 @@ https://next-auth.js.org/
 TODO: describe the pattern selected by Next auth
 
 ## About various implementation of auth in modern frameworks
-
+ Remix, Blitz, Redwood... 
+ 
+ - https://remix.run/docs/en/v1/tutorials/jokes#authentication
 
 ## Resources
 https://nextjs.org/docs/authentication
