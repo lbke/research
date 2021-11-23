@@ -9,6 +9,15 @@
 </head>
 
 <body class="stackedit">
+  <div class="stackedit__html">
+
+
+  
+  
+  <title>readme</title>
+  
+
+
   <div class="stackedit__html"><h1 id="lbke-research-homepage">LBKE Research homepage</h1>
 <p>This is a public repository. Feel free to use this knowledge to make the web a better place, but don’t forget attribution.</p>
 <h2 id="how-to-setup-stackedit">How to setup StackEdit</h2>
@@ -20,6 +29,9 @@ Then, use HTML preview to create HTML links: <a href="https://htmlpreview.github
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 </blockquote>
+</div>
+
+
 </div>
 </body>
 
