@@ -193,6 +193,7 @@ The "Jokes" tutorial includes an authentication example with detailed explanatio
 
  https://remix.run/docs/en/v1/tutorials/jokes#authentication
 
+Sessions are documented here: https://remix.run/docs/en/v1.0.3/api/remix#sessions
 
 - The token is hashed using a secret variable. It contains the user id.
 - The server checks the user id against the database to confirm existence.
@@ -206,8 +207,8 @@ https://jwt.io/
 https://supertokens.io/: creator of Super Tokens contributed to Blitz.js auth implementation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1NTM1OTYsMjA2NTYyMTk1OCwtOTM1Mz
-Y5NjY3LC00MzYwNzY4NjYsLTE2NzExMTQ3NjYsOTA4ODU3MjY0
-LDkyMTYxMTYxNiw4NTcwNDA5MjksMTc3Njk5NjU4MSwtMzMyND
-U1MzYzXX0=
+eyJoaXN0b3J5IjpbMTc3NjI2MDIzMCwyMDY1NjIxOTU4LC05Mz
+UzNjk2NjcsLTQzNjA3Njg2NiwtMTY3MTExNDc2Niw5MDg4NTcy
+NjQsOTIxNjExNjE2LDg1NzA0MDkyOSwxNzc2OTk2NTgxLC0zMz
+I0NTUzNjNdfQ==
 -->
