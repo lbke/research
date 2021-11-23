@@ -188,7 +188,12 @@ TODO: describe the pattern selected by Next auth
  Remix, Blitz, Redwood... 
  
  ### Remix
-The "Jokes" tutorial includes an example.
+ 
+The "Jokes" tutorial includes an authentication example with detailed explanations of the auth flow.
+
+- The token is hashed using a secret variable. It contains the user id.
+- The server checks the use
+- 
  - https://remix.run/docs/en/v1/tutorials/jokes#authentication
 
 ## Resources
@@ -199,8 +204,8 @@ https://jwt.io/
 https://supertokens.io/: creator of Super Tokens contributed to Blitz.js auth implementation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkxMTU3MTgsMjA2NTYyMTk1OCwtOT
-M1MzY5NjY3LC00MzYwNzY4NjYsLTE2NzExMTQ3NjYsOTA4ODU3
-MjY0LDkyMTYxMTYxNiw4NTcwNDA5MjksMTc3Njk5NjU4MSwtMz
-MyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbMjc4OTk1MzM5LDIwNjU2MjE5NTgsLTkzNT
+M2OTY2NywtNDM2MDc2ODY2LC0xNjcxMTE0NzY2LDkwODg1NzI2
+NCw5MjE2MTE2MTYsODU3MDQwOTI5LDE3NzY5OTY1ODEsLTMzMj
+Q1NTM2M119
 -->
