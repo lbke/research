@@ -197,7 +197,7 @@ Sessions are documented here: https://remix.run/docs/en/v1.0.3/api/remix#session
 
 - The token is hashed using a secret variable. It contains the user id.
 - The server checks the user id against the database to confirm existence.
-- It does describe an API authentication (securing the creation of a new "joke") but it's unclear about how to protect pages.
+- It does describe an API authentication in this example (securing the creation of a new joke), however, since it relies correctly on cookies and Set-Header it will work ok for pages as well.
 
 ## Resources
 https://nextjs.org/docs/authentication
@@ -207,7 +207,7 @@ https://jwt.io/
 https://supertokens.io/: creator of Super Tokens contributed to Blitz.js auth implementation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NjI2MDIzMCwyMDY1NjIxOTU4LC05Mz
+eyJoaXN0b3J5IjpbMTM3MDMwMzg5OCwyMDY1NjIxOTU4LC05Mz
 UzNjk2NjcsLTQzNjA3Njg2NiwtMTY3MTExNDc2Niw5MDg4NTcy
 NjQsOTIxNjExNjE2LDg1NzA0MDkyOSwxNzc2OTk2NTgxLC0zMz
 I0NTUzNjNdfQ==
