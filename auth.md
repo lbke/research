@@ -187,6 +187,8 @@ TODO: describe the pattern selected by Next auth
 ## About various implementation of auth in modern frameworks
  Remix, Blitz, Redwood... 
  
+ ### Remix
+The "Jokes" tutorial includes an example.
  - https://remix.run/docs/en/v1/tutorials/jokes#authentication
 
 ## Resources
@@ -197,7 +199,8 @@ https://jwt.io/
 https://supertokens.io/: creator of Super Tokens contributed to Blitz.js auth implementation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTYyMTk1OCwtOTM1MzY5NjY3LC00Mz
-YwNzY4NjYsLTE2NzExMTQ3NjYsOTA4ODU3MjY0LDkyMTYxMTYx
-Niw4NTcwNDA5MjksMTc3Njk5NjU4MSwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTE5OTkxMTU3MTgsMjA2NTYyMTk1OCwtOT
+M1MzY5NjY3LC00MzYwNzY4NjYsLTE2NzExMTQ3NjYsOTA4ODU3
+MjY0LDkyMTYxMTYxNiw4NTcwNDA5MjksMTc3Njk5NjU4MSwtMz
+MyNDU1MzYzXX0=
 -->
