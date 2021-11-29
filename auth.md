@@ -46,8 +46,10 @@ You can do 2 operations on an existing token:
 **Verifying the token DOES MEAN it's valid and the user is authenticated**. That's what you want to do to use to authenticate someone.
 
 ## Types of authentication
-Asymmetrical auth token with RSA256
-Tokens with secret
+
+Asymmetrical auth token with public/private RSA256
+Symmetrical auth tokens with secret => this is used in 
+
 Token stored in the database
 Access + refresh token
 
@@ -205,10 +207,10 @@ https://next-auth.js.org/
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
 https://jwt.io/
 https://supertokens.io/: creator of Super Tokens contributed to Blitz.js auth implementation
-
+https://www.npmjs.com/package/iron-session
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDMwMzg5OCwyMDY1NjIxOTU4LC05Mz
-UzNjk2NjcsLTQzNjA3Njg2NiwtMTY3MTExNDc2Niw5MDg4NTcy
-NjQsOTIxNjExNjE2LDg1NzA0MDkyOSwxNzc2OTk2NTgxLC0zMz
-I0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbODM3ODM5NjI2LDEzNzAzMDM4OTgsMjA2NT
+YyMTk1OCwtOTM1MzY5NjY3LC00MzYwNzY4NjYsLTE2NzExMTQ3
+NjYsOTA4ODU3MjY0LDkyMTYxMTYxNiw4NTcwNDA5MjksMTc3Nj
+k5NjU4MSwtMzMyNDU1MzYzXX0=
 -->
