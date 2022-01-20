@@ -209,6 +209,8 @@ Sessions are documented here: https://remix.run/docs/en/v1.0.3/api/remix#session
 
 http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/
 
+https://evertpot.com/jwt-is-a-bad-default/
+
 https://github.com/vercel/next.js/blob/canary/examples/with-passport
 
 https://nextjs.org/docs/authentication
