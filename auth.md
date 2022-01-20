@@ -207,6 +207,8 @@ Sessions are documented here: https://remix.run/docs/en/v1.0.3/api/remix#session
 
 ## Resources
 
+https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/JSON_Web_Token_for_Java_Cheat_Sheet.md
+
 http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/
 
 https://evertpot.com/jwt-is-a-bad-default/
