@@ -206,13 +206,24 @@ Sessions are documented here: https://remix.run/docs/en/v1.0.3/api/remix#session
 - It does describe an API authentication in this example (securing the creation of a new joke), however, since it relies correctly on cookies and Set-Header it will work ok for pages as well.
 
 ## Resources
+
+http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/
+
 https://github.com/vercel/next.js/blob/canary/examples/with-passport
+
 https://nextjs.org/docs/authentication
+
 https://next-auth.js.org/
+
 https://stackoverflow.com/questions/49920234/how-to-implement-authentication-in-next-js
+
 https://jwt.io/
+
 https://supertokens.io/: creator of Super Tokens contributed to Blitz.js auth implementation
+
 https://www.npmjs.com/package/iron-session
+
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNDY4MTU2ODI1LDEzNzAzMDM4OTgsMjA2NT
 YyMTk1OCwtOTM1MzY5NjY3LC00MzYwNzY4NjYsLTE2NzExMTQ3
