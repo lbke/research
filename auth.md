@@ -128,7 +128,7 @@ I must admit that I did not succeed to verify the token yet using Next.js :) I'l
 
 
 
-### Login/logout
+### Login/logout: how to store the token and drop it
 
 This doesn't change with middlewares. You store your access token as an `httpOnly` cookie. When logging out, you unset this cookie.
 
@@ -136,6 +136,18 @@ Managing those Set-Cookies headers are the responsibility of your auth server.
 
 
 This is a basic workflow but it should work. You can then add a refresh token in the mix with a similar approach.
+
+#### Another approach without httpOnly
+
+Using httpOnly cookie is meant to prevent XSS attack, which happens when people force running some JavaScript code in your browser,
+for instance through an unsanitized script or image url.
+
+It should be possible to handle the token storage client-side, as long as you fingerprint the browser as well. This way,
+the token only works for a specific browser, and the user have to login again if they swap browsers.
+You can store the print in the server database, or within the token itself, and verify it in the request.
+
+https://fingerprintjs.com/
+
 
 ### About token revokation
 
