@@ -55,7 +55,7 @@ Access + refresh token
 
 TODO: find the right naming for those patterns
 
-## Middleware authentication
+## Authentication at the Edge (middlewares, Edge API routes)
 In order to verify a token, you need a key. 
 In a symmetrical approach, there is one **secret** key, used to created and verify token. This mean this operation can only be done server-side, by the authentication server.
 
@@ -216,6 +216,10 @@ Sessions are documented here: https://remix.run/docs/en/v1.0.3/api/remix#session
 - The token is hashed using a secret variable. It contains the user id.
 - The server checks the user id against the database to confirm existence.
 - It does describe an API authentication in this example (securing the creation of a new joke), however, since it relies correctly on cookies and Set-Header it will work ok for pages as well.
+
+## About session-based authentication
+
+Session-based authentication stores the session information in a database, instead of storing them in a JSON web token. Then the sessionId is stored in a cookie, similarly to how we store user information in the JWT.
 
 ## Resources
 
